@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/keylayout/cy8ctma340_touch.kl:system/usr/keylayout/cy8ctma340_touch.kl
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.ril.v3=qcomdsds,skipnullaid \
+    ro.telephony.ril.v3=skipnullaid \
     persist.radio.apm_sim_not_pwdn=0 \
     debug.composition.7x27A.type=mdp \
     debug.composition.7x25A.type=mdp \
